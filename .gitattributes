@@ -1,0 +1,22 @@
+* text=auto
+
+# Keep Unity text assets and documentation consistent across platforms.
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.mat text eol=lf
+*.prefab text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Keep imported models and screenshots as binary files.
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exr binary
+*.hdr binary

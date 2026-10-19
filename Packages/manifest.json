@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.core": "https://github.com/bluewhitebow/FraxinusGraphics.git?path=Packages/Fraxinus-RPCore#f48668c738d5d219d98fbb77feac7f4b5def26da",
+    "com.unity.render-pipelines.universal": "https://github.com/bluewhitebow/FraxinusGraphics.git?path=Packages/Fraxinus-URPExtensions#f48668c738d5d219d98fbb77feac7f4b5def26da",
+    "com.unity.render-pipelines.universal-config": "https://github.com/bluewhitebow/FraxinusGraphics.git?path=Packages/Fraxinus-URPGlobal#f48668c738d5d219d98fbb77feac7f4b5def26da",
+    "com.fraxinus.rendering.light-transport": "https://github.com/bluewhitebow/FraxinusGraphics.git?path=Packages/Fraxinus-Light-Transport#f48668c738d5d219d98fbb77feac7f4b5def26da",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.ui": "1.0.0"
+  }
+}
