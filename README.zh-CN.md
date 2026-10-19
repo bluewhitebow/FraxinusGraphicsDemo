@@ -4,6 +4,8 @@
 
 基于 **Unity 2022.3.62f3** 与 [FraxinusGraphics](https://github.com/bluewhitebow/FraxinusGraphics) 的 Sponza 渲染示例。在同一场景体验 **APRTV 动态重光照**、**GI 与探针调试**、**级联阴影缓存**和 **STP / SGSR 升采样**。工程包含材质、渲染预设，以及 **4,563 个探针**的预计算传输数据。
 
+[渲染源码](https://github.com/bluewhitebow/FraxinusGraphics/tree/main/Packages) · [功能说明](https://github.com/bluewhitebow/FraxinusGraphics/blob/main/README.zh-CN.md) · [使用指南](https://github.com/bluewhitebow/FraxinusGraphics/blob/main/docs/Usage.zh-CN.md) · [打开工程](#打开工程)
+
 ![此示例工程实际渲染的 Sponza](Documentation/images/sponza.png)
 
 ## 打开工程
@@ -19,7 +21,7 @@ git clone https://github.com/bluewhitebow/FraxinusGraphicsDemo.git
 3. 打开 `Assets/FraxinusSponza/Scenes/Sponza.unity`，或使用菜单 **Fraxinus > Sponza > Open Demo**。
 4. 进入 Play 模式，演示面板会显示，已有探针数据会自动加载。
 
-Unity 会直接从 GitHub 下载四个渲染包。目前 FraxinusGraphics 仍为私有仓库，打开工程前，账号须有该仓库的访问权限，且本机 Git 已配置认证。
+Unity 会自动从 GitHub 下载四个公开的渲染包，无需 GitHub 授权，也不用单独克隆源码仓库。
 
 ## 演示操作
 

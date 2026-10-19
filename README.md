@@ -4,6 +4,8 @@
 
 A Sponza rendering example for **Unity 2022.3.62f3**, powered by [FraxinusGraphics](https://github.com/bluewhitebow/FraxinusGraphics). Explore **APRTV relighting**, **GI and probe debugging**, **cached shadow cascades**, and **STP / SGSR upscaling** in one scene. Materials, rendering presets and precomputed transport for **4,563 probes** are included.
 
+[Rendering source](https://github.com/bluewhitebow/FraxinusGraphics/tree/main/Packages) · [Features](https://github.com/bluewhitebow/FraxinusGraphics/blob/main/README.md) · [Usage guide](https://github.com/bluewhitebow/FraxinusGraphics/blob/main/docs/Usage.md) · [Open the demo](#open-the-project)
+
 ![Sponza rendered by this example](Documentation/images/sponza.png)
 
 ## Open the project
@@ -19,7 +21,7 @@ git clone https://github.com/bluewhitebow/FraxinusGraphicsDemo.git
 3. Open `Assets/FraxinusSponza/Scenes/Sponza.unity`, or use **Fraxinus > Sponza > Open Demo**.
 4. Enter Play mode. The demo panel appears and existing probe data loads automatically.
 
-Unity downloads the four rendering packages directly from GitHub. FraxinusGraphics is currently private: your account needs access to that repository, and local Git authentication must be configured before opening the project.
+Unity automatically downloads the four public rendering packages from GitHub; no GitHub authorization or separate source checkout is required.
 
 ## Demo controls
 
